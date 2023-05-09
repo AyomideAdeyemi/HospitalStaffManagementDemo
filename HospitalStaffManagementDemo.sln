@@ -3,6 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A44DD915-2543-476D-92D6-C33BE39BE60D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{449300ED-39C5-4492-BA42-6AE3557B8A3F}"
@@ -55,6 +56,12 @@ Global
 		{466F4101-61F1-4F82-84E1-F289ED8BBB10} = {449300ED-39C5-4492-BA42-6AE3557B8A3F}
 		{4B4566EE-DA4E-4546-8250-837754E7CFD6} = {449300ED-39C5-4492-BA42-6AE3557B8A3F}
 	EndGlobalSection
+=======
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+>>>>>>> cc0cb2168a100fb01b09d9756b23c7fc559637e0
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {246E0306-5FFD-4523-832E-B4B6D783F02D}
 	EndGlobalSection
