@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace HSMD.Domain.Models
 {
-    public class Ref_JobTitle : AuditableBaseEntity
-    {
-        public int MyProperty { get; set; }
-    }
+    public class Ref_JobTitle
+{
+    public int Job_Title_Code { get; set; }
+    public string? Job_Title_Description { get; set; }
+
+    public Ref_JobTitle() { }
+}
 }

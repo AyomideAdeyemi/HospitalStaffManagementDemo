@@ -1,4 +1,4 @@
-﻿using HSMD.Domain.Common;
+﻿﻿using HSMD.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HSMD.Domain.Models
 {
-    public  class Hospital : AuditableBaseEntity
+    public class Hospital : AuditableBaseEntity
     {
         [ForeignKey(nameof(HospitalAddress))]
         public int AddressId { get; set; }

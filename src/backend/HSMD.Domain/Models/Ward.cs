@@ -9,5 +9,11 @@ namespace HSMD.Domain.Models
 {
     public class Ward : AuditableBaseEntity
     {
+        public int Ward_Id { get; set; }
+        public string? Ward_Name { get; set; }
+        public string? Ward_Location { get; set; }  
+        public string? Ward_Description { get; set; }
+
+        public Ward() { }
     }
 }

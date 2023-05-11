@@ -9,10 +9,11 @@ using System.Threading.Tasks;
 namespace HSMD.Domain.Models
 {
     public class Staff_Qualification
-    {
-        [ForeignKey(nameof(Staff))]
+    { 
         public int StaffId { get; set; }
-        [ForeignKey(nameof(Ref_Qualification))]
-        public int
+        public int QualificationCode { get; set; } 
+        public DateTime DateObtained { get; set; }
+
+        public Staff_Qualification() { }
     }
 }
